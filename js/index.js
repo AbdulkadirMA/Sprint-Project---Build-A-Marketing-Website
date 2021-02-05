@@ -11,3 +11,27 @@
 5. Console.log the result.
 
 */
+const operator = prompt( );
+
+
+const number1 = prompt();
+const number2 = prompt();
+
+let result;
+
+
+if (operator == '+') {
+    result = number1 + number2;
+}
+else if (operator == '-') {
+    result = number1 - number2;
+}
+else if (operator == '*') {
+    result = number1 * number2;
+}
+else {
+    result = number1 / number2;
+}
+
+
+console.log(`${number1} ${operator} ${number2} = ${result}`);

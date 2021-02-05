@@ -121,7 +121,7 @@ p {
     margin-top: 60px;
     padding: 50px 60px;
     display: flex;
-    justify-content: center;
+    
 }
 
 .visit-africa .visit-text {
@@ -134,5 +134,131 @@ p {
 
 .visit-africa .visit-form {
     width: 46%;
-      margin-left: 4%;
+    margin: 10px;
+    
+      
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  border: solid 1px #000;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #5834fc;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 16px 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  width: 30%
+  
+}
+header{
+  display: block;
+  margin: 0% 10rem;
+
+}
+.logo{
+  display:inline;
+  max-width: 200px;
+  margin: 2rem  ;
+
+}
+nav{
+  display: inline;
+  float:right;
+  margin:6rem;
+  
+  
+}
+nav a{
+  font-size: 18px;
+  text-decoration: none;
+  padding: 18px;
+}
+
+.hero{
+
+  margin-top: 10px;
+}
+.images-title{
+  padding: 60px 40px;
+  text-align: center;
+}
+.footer{
+  background-color: #000;
+  color:#fff;
+  text-align: center;
+  padding:20px
+}
+.btn{
+  background-color: #5834fc;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  width:30%;
+}
+
+/*Mobile Responsive*/
+@media screen and (max-width: 800px){
+  header{
+    display: flex;
+    
+  }
+  .logo{
+    display: flex;
+  }
+  nav{
+    display:none;
+  }
+  
+.attraction-images .images{
+  width: 100%;
+  margin: 20px 2.5%;
+  height: 100%;
+}
+.visit-africa {
+  margin-top: 10px;
+  display: block;
+  width: 100;
+  
+}
+.visit-africa .visit-text {
+  width: 100%;
+  text-align: center;
+}
+.visit-africa .visit-form {
+  width: 100%;
+  margin: 10px;
+    
+}
+.btn{
+  background-color: #5834fc;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  width:100%;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #5834fc;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 16px 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  width: 100%
+  
+}
 }
